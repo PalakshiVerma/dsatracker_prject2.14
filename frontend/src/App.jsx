@@ -4,7 +4,7 @@ import { Plus, Search, Filter, RefreshCw } from 'lucide-react';
 import ProblemForm from './components/ProblemForm';
 import ProblemList from './components/ProblemList';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://dsatracker-project2-14.onrender.com';
 
 function App() {
   const [problems, setProblems] = useState([]);
